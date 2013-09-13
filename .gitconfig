@@ -1,0 +1,16 @@
+[user]
+  name = Rustam Gasanov
+  email = rustamagasanov@gmail.com
+[github]
+  user = rustamagasanov
+[alias]
+  ; l   = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  l   = log --pretty='format:%C(yellow)%h%C(reset) %C(blue)%ad%C(reset) %s%C(red)%d%C(reset) %C(green)%an%C(reset), %C(cyan)%ar%C(reset)' --date=short --graph
+  ds  = diff --staged
+  dc  = diff --color
+  s   = status
+  co  = checkout
+  cam = commit -am
+  cm  = commit -m
+[core]
+  editor = /usr/bin/vim
