@@ -1,1 +1,1 @@
-/Users/rustam/Projects/github/mumonkan/vimrc
+/Users/rustam/Projects/github/vim-installer/vimrc
