@@ -6,11 +6,13 @@
 [alias]
   ; l   = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   l   = log --pretty='format:%C(yellow)%h%C(reset) %C(blue)%ad%C(reset) %s%C(red)%d%C(reset) %C(green)%an%C(reset), %C(cyan)%ar%C(reset)' --date=short --graph
-  dsc = diff --staged --color
+  dcs = diff --staged --color
   dc  = diff --color
+  a   = add
   s   = status
   co  = checkout
   cam = commit -am
   cm  = commit -m
+  po  = push origin
 [core]
   editor = /usr/bin/vim
