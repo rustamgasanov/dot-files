@@ -10,6 +10,7 @@
   dc  = diff --color
   a   = add
   s   = status
+  m   = merge
   co  = checkout
   cam = commit -am
   cm  = commit -m
