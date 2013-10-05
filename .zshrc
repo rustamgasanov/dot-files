@@ -46,3 +46,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/Users/rustam/.rvm/gems/ruby-1.9.3-p392@safeinhome/bin:/Users/rustam/.rvm/gems/ruby-1.9.3-p392@global/bin:/Users/rustam/.rvm/rubies/ruby-1.9.3-p392/bin:/Users/rustam/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+# Grep --color option highlight
+# 1) standard: 0:no, 1:bright, 2:dim, 4:underscore, 5:blink, 7:reverse, 8:hidden
+# 2) foreground: 30:black, 31:red, 32:green, 33:yellow, 34:blue, 35:magenta, 36:cyan, 37:white
+# 3) background: 40:black, 41:red, 42:green, 43:yellow, 44:blue, 45:magenta, 46:cyan, 47:white
+GREP_COLOR='0;30;43'
