@@ -58,3 +58,4 @@ alias g='git'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep='grep --color'
+alias rake="noglob rake"
