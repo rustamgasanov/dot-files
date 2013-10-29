@@ -54,7 +54,7 @@ export PATH=$PATH:/Users/rustam/.rvm/gems/ruby-1.9.3-p392@safeinhome/bin:/Users/
 GREP_COLOR='0;30;43'
 
 alias ll='ls -alFh'
-alias g='git'
+alias g='nocorrect git'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep='grep --color'
