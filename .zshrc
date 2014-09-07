@@ -45,7 +45,8 @@ plugins=(git git-extras)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/rustam/.rvm/gems/ruby-1.9.3-p392@safeinhome/bin:/Users/rustam/.rvm/gems/ruby-1.9.3-p392@global/bin:/Users/rustam/.rvm/rubies/ruby-1.9.3-p392/bin:/Users/rustam/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
+export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 # Grep --color option highlight
 # 1) standard: 0:no, 1:bright, 2:dim, 4:underscore, 5:blink, 7:reverse, 8:hidden
@@ -55,7 +56,7 @@ GREP_COLOR='0;30;43'
 
 alias ll='ls -alFh'
 alias g='nocorrect git'
-alias mysql='/usr/local/mysql/bin/mysql'
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep='grep --color'
 alias rake="noglob rake"
+
