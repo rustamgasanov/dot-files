@@ -10,6 +10,11 @@ ZSH_THEME="terminalparty"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ll='ls -alFh'
+alias g='nocorrect git'
+alias ctags="`brew --prefix`/bin/ctags"
+alias grep='grep --color'
+alias rake="noglob rake"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -53,10 +58,3 @@ export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Ho
 # 2) foreground: 30:black, 31:red, 32:green, 33:yellow, 34:blue, 35:magenta, 36:cyan, 37:white
 # 3) background: 40:black, 41:red, 42:green, 43:yellow, 44:blue, 45:magenta, 46:cyan, 47:white
 GREP_COLOR='0;30;43'
-
-alias ll='ls -alFh'
-alias g='nocorrect git'
-alias ctags="`brew --prefix`/bin/ctags"
-alias grep='grep --color'
-alias rake="noglob rake"
-
