@@ -1,7 +1,7 @@
 alias ll='ls -alFh'
 alias g='git'
-alias mysql='/usr/local/mysql/bin/mysql'
 alias ctags="`brew --prefix`/bin/ctags"
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
+export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
