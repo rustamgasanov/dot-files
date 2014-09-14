@@ -15,6 +15,7 @@ alias g='nocorrect git'
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep='grep --color'
 alias rake="noglob rake"
+alias tml="tmux list-sessions"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
