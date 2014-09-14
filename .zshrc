@@ -10,10 +10,10 @@ ZSH_THEME="terminalparty"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll='ls -alFh'
-alias g='nocorrect git'
+alias ll="ls -alFh"
+alias g="nocorrect git"
 alias ctags="`brew --prefix`/bin/ctags"
-alias grep='grep --color'
+alias grep="grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
 

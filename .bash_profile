@@ -1,7 +1,7 @@
-alias ll='ls -alFh'
-alias g='git'
+alias ll="ls -alFh"
+alias g="git"
 alias ctags="`brew --prefix`/bin/ctags"
-alias grep='grep --color'
+alias grep="grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
 
