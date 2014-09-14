@@ -1,6 +1,8 @@
 alias ll='ls -alFh'
 alias g='git'
 alias ctags="`brew --prefix`/bin/ctags"
+alias grep='grep --color'
+alias rake="noglob rake"
 
 export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 
