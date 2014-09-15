@@ -5,6 +5,6 @@ alias grep="grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
 
-export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
+export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

@@ -51,7 +51,7 @@ plugins=(git git-extras)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
+export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 # Grep --color option highlight
