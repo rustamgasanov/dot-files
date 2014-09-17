@@ -4,6 +4,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 alias grep="grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
+alias tma="tmux attach || tmux"
 
 export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 
