@@ -17,6 +17,8 @@ alias grep="grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
 alias tma="tmux attach || tmux"
+alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
