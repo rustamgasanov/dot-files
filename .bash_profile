@@ -1,5 +1,6 @@
 alias ll="ls -alFh"
 alias g="git"
+alias s="spring"
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep="grep --color"
 alias rake="noglob rake"
