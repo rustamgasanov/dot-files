@@ -7,20 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="terminalparty"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="ls -alFh"
-alias g="nocorrect git"
-alias s="spring"
-alias ctags="`brew --prefix`/bin/ctags"
-alias grep="grep --color"
-alias rake="noglob rake"
-alias tml="tmux list-sessions"
-alias tma="tmux attach || tmux"
-alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -57,6 +43,21 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ll="ls -alFh"
+alias g="nocorrect git"
+alias s="spring"
+alias ctags="`brew --prefix`/bin/ctags"
+alias grep="grep --color"
+alias rake="noglob rake"
+alias tml="tmux list-sessions"
+alias tma="tmux attach || tmux"
+alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
+
 
 # Grep --color option highlight
 # 1) standard: 0:no, 1:bright, 2:dim, 4:underscore, 5:blink, 7:reverse, 8:hidden
