@@ -50,6 +50,7 @@ export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Ho
 alias ll="ls -alFh"
 alias g="nocorrect git"
 alias s="spring"
+alias fs="foreman start"
 alias ctags="`brew --prefix`/bin/ctags"
 alias grep="grep --color"
 alias rake="noglob rake"
