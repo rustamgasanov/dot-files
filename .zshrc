@@ -62,6 +62,7 @@ alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
 
 alias es-start="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Grep --color option highlight
 # 1) standard: 0:no, 1:bright, 2:dim, 4:underscore, 5:blink, 7:reverse, 8:hidden
