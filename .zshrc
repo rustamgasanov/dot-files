@@ -45,8 +45,6 @@ export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -alFh"
 alias g="nocorrect git"
 alias s="spring"
