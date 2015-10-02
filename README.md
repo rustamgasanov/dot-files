@@ -1,6 +1,7 @@
 dot-files
 =========
-My dot files
+
+Files to be placed in home directory.
 
 ## Mac OS
 
