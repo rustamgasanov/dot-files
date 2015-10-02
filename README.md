@@ -5,4 +5,10 @@ Files to be placed in home directory.
 
 ## Mac OS
 
-Double-click `MesloLGMDZRegularforPowerline.otf` to install Powerline font and apply it in iTerm Preferences -> Profiles -> Texts (change fonts), in case of any appearance problems, consult (this issue)[https://gist.github.com/agnoster/3712874].
+- Double-click(or open) `MesloLGMDZRegularforPowerline.otf` to install Powerline font.
+
+- Double-click(or open) `SolarizedDark.itermcolors` to install Solarized Dark color scheme in iTerm.
+
+- Apply the Powerline font in iTerm Preferences -> Profiles -> Texts (change fonts), in case of any appearance problems, consult (this issue)[https://gist.github.com/agnoster/3712874].
+
+- Apply Solarized color scheme in iTerm Preferences -> Profiles -> Colors -> Load Presets.
