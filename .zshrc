@@ -7,6 +7,9 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
+# To remove "user@hostname" from the beginning of the prompt
+DEFAULT_USER="rustam"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
