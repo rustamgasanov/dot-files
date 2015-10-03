@@ -53,7 +53,7 @@ alias g="nocorrect git"
 alias s="spring"
 alias fs="foreman start"
 alias ctags="`brew --prefix`/bin/ctags"
-alias grep="grep --color"
+alias grep="GREP_COLOR='0;30;43' grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
 alias tma="tmux attach || tmux"
@@ -65,9 +65,3 @@ alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
 alias es-start="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# Grep --color option highlight
-# 1) standard: 0:no, 1:bright, 2:dim, 4:underscore, 5:blink, 7:reverse, 8:hidden
-# 2) foreground: 30:black, 31:red, 32:green, 33:yellow, 34:blue, 35:magenta, 36:cyan, 37:white
-# 3) background: 40:black, 41:red, 42:green, 43:yellow, 44:blue, 45:magenta, 46:cyan, 47:white
-GREP_COLOR='0;30;43'
