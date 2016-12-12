@@ -17,5 +17,6 @@
   po  = push origin
 [core]
   editor = /usr/bin/vim
+  excludesfile = /Users/rustam/.gitignore_global
 [color]
   ui = true
