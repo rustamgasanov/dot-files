@@ -14,6 +14,4 @@ alias pg-stop="pg_ctl stop -D /usr/local/var/postgres -m f"
 
 alias es-start="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
 
-export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/opt/local/bin"
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="/usr/local/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
