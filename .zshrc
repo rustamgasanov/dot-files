@@ -56,7 +56,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 alias grep="GREP_COLOR='0;30;43' grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
-alias tma="tmux attach || tmux new -s MOVINGA"
+alias tma="tmux attach || tmux new -s CUBITS"
 alias be="bundle exec"
 
 alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
