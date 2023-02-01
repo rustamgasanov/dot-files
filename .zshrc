@@ -44,7 +44,7 @@ plugins=(git git-extras)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/local/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
+export PATH="/usr/local/opt/ruby/bin:/usr/local/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 # Example aliases
@@ -54,5 +54,5 @@ alias ctags="`brew --prefix`/bin/ctags"
 alias grep="GREP_COLOR='0;30;43' grep --color"
 alias rake="noglob rake"
 alias tml="tmux list-sessions"
-alias tma="tmux attach || tmux new -s CUBITS"
+alias tma="tmux attach || tmux new -s S1"
 alias be="bundle exec"
