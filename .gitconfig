@@ -2,9 +2,8 @@
   name = Rustam Gasanov
   email = ragasanov@gmail.com
 [github]
-  user = rustamagasanov
+  user = rustamgasanov
 [alias]
-  ; l   = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   l   = log --pretty='format:%C(yellow)%h%C(reset) %C(blue)%ad%C(reset) %s%C(red)%d%C(reset) %C(green)%an%C(reset), %C(cyan)%ar%C(reset)' --date=short --graph
   dcs = diff --staged --color
   dc  = diff --color
