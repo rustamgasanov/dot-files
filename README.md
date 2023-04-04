@@ -1,7 +1,6 @@
-dot-files
-=========
+# dot-files
 
-Files to be placed in home directory.
+Files to be placed in the home directory.
 
 ## Mac OS
 
@@ -9,7 +8,7 @@ Files to be placed in home directory.
 
 - Install tmux.
 
-- Double-click(or open) `MesloLGMDZRegularforPowerline.otf` to install Powerline font.
+- Double-click(or open) `Meslo LG M DZ Regular Nerd Font Complete.ttf` to install Meslo Nerd font.
 
 - Double-click(or open) `base16-railscasts-custom.dark.256.itermcolors` to install Railscasts color scheme in iTerm.
 

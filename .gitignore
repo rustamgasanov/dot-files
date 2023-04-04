@@ -1,9 +1,7 @@
 *
 !.gitignore
 !.tmux.conf
-!.bash_profile
-!.bashrc
 !.gitconfig
 !.zshrc
-!MesloLGMDZRegularforPowerline.otf
+!Meslo\ LG\ M\ DZ\ Regular\ Nerd\ Font\ Complete.ttf
 !base16-railscasts-custom.dark.256.itermcolors
