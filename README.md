@@ -30,7 +30,7 @@ Running `make install` will install or upgrade the components.
 
 - configure `.gitconfig` with your credentials
 - iTerm Preferences → Profiles → Text - select `Meslo Nerd` font
-- iTerm Preferences → Profiles → Colors - select `tokyonight_moon` preset
+- iTerm Preferences → Profiles → Colors - select `tokyonight_moon` preset(add by double-clicking the file)
 
 [Manual instructions on iTerm2 + oh my zsh + solarized + Meslo powerline font](https://gist.github.com/kevin-smets/8568070)
 
