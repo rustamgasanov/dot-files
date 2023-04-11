@@ -1,19 +1,37 @@
 # dot-files
 
-Files to be placed in the home directory.
+Sets up and keeps up to date the development environment.
 
-## Mac OS
+## Requirements
 
-- Install ohmyzsh.
+- [Homebrew](https://brew.sh/)
+- git
+- curl
 
-- Install tmux.
+## Instructions
 
-- Double-click(or open) `Meslo LG M DZ Regular Nerd Font Complete.ttf` to install Meslo Nerd font.
+Clone this repo to the home `~` directory. Run `make` command to see the available options:
 
-- Double-click(or open) `base16-railscasts-custom.dark.256.itermcolors` to install Railscasts color scheme in iTerm.
+```bash
+$ make
+install              Install iterm2, tmux, zsh, font
+```
 
-- Apply the Powerline font in iTerm Preferences -> Profiles -> Texts (change fonts), in case of any appearance problems, consult [this issue](https://gist.github.com/agnoster/3712874).
+Running `make install` will install or upgrade the components.
 
-- Apply Railscasts' color scheme in iTerm Preferences -> Profiles -> Colors -> Load Presets.
+## Contents
 
-[detailed instructions on iTerm2 + oh my zsh + solarized + Meslo powerline font](https://gist.github.com/kevin-smets/8568070)
+- [iterm2](https://iterm2.com/)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- `Meslo LG M DZ Regular Nerd Font Complete.ttf` - sets up the font, required by `NvimTree` and `Lualine(Status line)`
+
+## Configuration
+
+- configure `.gitconfig` with your credentials
+- iTerm Preferences → Profiles → Text - select `Meslo Nerd` font
+- iTerm Preferences → Profiles → Colors - select `tokyonight_moon` preset
+
+[Manual instructions on iTerm2 + oh my zsh + solarized + Meslo powerline font](https://gist.github.com/kevin-smets/8568070)
+
+[Follow updates on the colorschemes for iterm2 and tmux](https://github.com/folke/tokyonight.nvim/tree/main/extras)
