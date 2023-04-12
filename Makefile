@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := help
 
+LOCAL_SHARE_DIR    := ~/.local/share
+NVIM_INSTALLER_DIR := $(LOCAL_SHARE_DIR)/nvim-installer
+NVIM_INSTALLER_GIT := https://github.com/rustamgasanov/nvim-installer
+
 .PHONY: help
 help:
 	@grep '^.PHONY: .* #' Makefile | sed 's/\.PHONY: \(.*\) # \(.*\)/\1 $(shell echo "\t") \2/' | sort | expand -t20
@@ -21,5 +25,21 @@ install:
 	@echo "→ Installing Meslo Nerd font"
 	cp -n Meslo\ LG\ M\ DZ\ Regular\ Nerd\ Font\ Complete.ttf ~/Library/Fonts || :
 
-# TODO
-.PHONY: nvim
+.PHONY: install-nvim # Install rustamgasanov/nvim-installer
+install-nvim:
+	@echo "→ Pulling nvim-installer"
+	if [ -d $(NVIM_INSTALLER_DIR) ] ; then \
+		cd $(NVIM_INSTALLER_DIR) && git pull $(NVIM_INSTALLER_GIT); \
+	else \
+		git clone $(NVIM_INSTALLER_GIT) $(NVIM_INSTALLER_DIR); \
+	fi
+	cd $(NVIM_INSTALLER_DIR) && make install
+
+.PHONY: remove-nvim # Remove rustamgasanov/nvim-installer
+remove-nvim:
+	if [ ! -d $(NVIM_INSTALLER_DIR) ] ; then \
+		echo "Nvim-installer is not installed."; \
+	else \
+		cd $(NVIM_INSTALLER_DIR) && make remove; \
+		rm -rf $(NVIM_INSTALLER_DIR); \
+	fi

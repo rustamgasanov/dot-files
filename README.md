@@ -1,6 +1,6 @@
 # dot-files
 
-Sets up and keeps up to date the development environment.
+Sets up and keeps up to date the development tools.
 
 ## Requirements
 
@@ -22,6 +22,8 @@ Clone this repo to the home `~` directory. Run `make` command to see the availab
 ```bash
 $ make
 install              Install iterm2, tmux, zsh, font
+install-nvim         Install rustamgasanov/nvim-installer
+remove-nvim          Remove rustamgasanov/nvim-installer
 ```
 
 Running `make install` will install or upgrade the components. Then:
@@ -29,6 +31,8 @@ Running `make install` will install or upgrade the components. Then:
 - configure `.gitconfig` with your credentials
 - iTerm Preferences → Profiles → Text - select `Meslo Nerd` font
 - iTerm Preferences → Profiles → Colors - select `tokyonight_moon` preset(add by double-clicking the file)
+
+Running `make install-nvim` additionally installs or upgrades [my Neovim distribution](https://github.com/rustamgasanov/nvim-installer).
 
 ## References
 
