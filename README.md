@@ -8,6 +8,13 @@ Sets up and keeps up to date the development environment.
 - git
 - curl
 
+## Contents
+
+- [iterm2](https://iterm2.com/)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- `Meslo LG M DZ Regular Nerd Font Complete.ttf` - sets up the font, required by `NvimTree` and `Lualine(Status line)`
+
 ## Instructions
 
 Clone this repo to the home `~` directory. Run `make` command to see the available options:
@@ -17,20 +24,13 @@ $ make
 install              Install iterm2, tmux, zsh, font
 ```
 
-Running `make install` will install or upgrade the components.
-
-## Contents
-
-- [iterm2](https://iterm2.com/)
-- [tmux](https://github.com/tmux/tmux/wiki)
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- `Meslo LG M DZ Regular Nerd Font Complete.ttf` - sets up the font, required by `NvimTree` and `Lualine(Status line)`
-
-## Configuration
+Running `make install` will install or upgrade the components. Then:
 
 - configure `.gitconfig` with your credentials
 - iTerm Preferences → Profiles → Text - select `Meslo Nerd` font
 - iTerm Preferences → Profiles → Colors - select `tokyonight_moon` preset(add by double-clicking the file)
+
+## References
 
 [Manual instructions on iTerm2 + oh my zsh + solarized + Meslo powerline font](https://gist.github.com/kevin-smets/8568070)
 
