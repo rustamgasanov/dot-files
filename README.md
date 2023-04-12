@@ -17,7 +17,16 @@ Sets up and keeps up to date the development tools.
 
 ## Instructions
 
-Clone this repo to the home `~` directory. Run `make` command to see the available options:
+Clone this repo to the home `~` directory:
+
+```bash
+$ cd ~
+$ git init
+$ git remote add origin https://github.com/rustamgasanov/dot-files.git
+$ git pull origin main
+```
+
+Run `make` command to see the available options:
 
 ```bash
 $ make
