@@ -44,7 +44,7 @@ plugins=(git git-extras)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/local/opt/ruby/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
 
 # Example aliases
 alias ll="ls -alFh"
