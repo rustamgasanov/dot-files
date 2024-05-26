@@ -43,6 +43,10 @@ plugins=(git git-extras)
 
 source $ZSH/oh-my-zsh.sh
 
+# Set locales
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # Customize to your needs...
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/local/opt/ruby/bin:$PATH:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
 
